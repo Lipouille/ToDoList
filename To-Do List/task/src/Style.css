@@ -1,0 +1,56 @@
+/*Titre et ajout de task*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 800px;
+}
+
+.container-input-btn {
+    display: flex;
+    gap: 8px;
+}
+
+h1 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+#input-task {
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px #a88aef solid;
+    border-left: none;
+    padding: 10px;
+    flex: 1;
+}
+
+#add-task-button {
+    background-color: #a88aef;
+    color: white;
+    font-family: "Comic Sans MS";
+    border: none;
+    padding: 10px;
+}
+
+/*=============================CORPS===================================*/
+
+.container-ul {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+ul {
+    font-family: "Comic Sans MS";
+    list-style-type: none;
+}
+
+span {
+
+}
+
+.delete-btn {
+
+}
